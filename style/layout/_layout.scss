@@ -1,0 +1,230 @@
+.page {
+
+    @include main_font_regular;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: $black01;
+    // height: 1px;
+    min-height: 100vh;
+
+
+    @include big_device {
+        padding: 12.4rem 2.4rem;
+        background-color: $Eggshell;
+    }
+
+    strong {
+        @include main_font_bold;
+    }
+
+    .app {
+        width: 100%;
+        max-width: 73.6rem;
+        margin: auto;
+        background-color: white;
+
+
+        @include big_device {
+            padding: 4rem;
+            border-radius: 2.4rem;
+        }
+
+        .hero {
+
+            &__img {
+                @include img_responsive;
+
+                @include big_device {
+                    border-radius: 1.2rem;
+                }
+            }
+
+            &__title {
+
+                @include heading_font_regular;
+
+                line-height: 100%;
+
+                @include big_device {
+                    font-size: 4rem;
+                    margin-top: 4rem;
+                }
+
+                @include small_device {
+                    font-size: 3.6rem;
+                    margin: 4rem 3.2rem 0;
+                }
+            }
+
+            &__desc {
+                color: $Wenge;
+
+                @include big_device {
+                    margin-top: 2.4rem;
+                }
+
+                @include small_device {
+                    margin: 2.4rem 3.2rem 0;
+                }
+            }
+        }
+
+        .time {
+
+            border-radius: 1.2rem;
+            background-color: $Snow;
+
+            @include big_device {
+                margin-top: 3.2rem;
+                padding: 2.8rem;
+            }
+
+            @include small_device {
+                margin: 3.2rem 3.2rem 0;
+                padding: 2.4rem;
+            }
+
+            &__title {
+                @include main_font_semibold;
+                font-size: 2rem;
+                line-height: 100%;
+                color: $Rasberry;
+            }
+
+            &__ul {
+                margin-top: 1.6rem;
+                color: $Wenge;
+                list-style-type: disc;
+                padding-left: 2.2rem;
+            }
+        }
+
+        .ingredients {
+
+            padding-bottom: 3.2rem;
+            border-bottom: 1px solid $WhiteCoffee;
+
+            @include big_device {
+                margin-top: 3.2rem;
+            }
+
+            @include small_device {
+                margin: 3.2rem 3.2rem 0;
+            }
+
+            &__title {
+                @include heading_font_regular;
+                font-size: 2.8rem;
+                line-height: 100%;
+                color: $Brandy;
+            }
+
+            &__ul {
+                margin-top: 2.4rem;
+                color: $Wenge;
+                list-style-type: disc;
+            }
+
+            &__li {
+                list-style-position: inside;
+
+                &:not(:first-child) {
+                    margin-top: 0.8rem;
+                }
+            }
+        }
+
+        .instructions {
+
+            padding-bottom: 3.2rem;
+            border-bottom: 1px solid $WhiteCoffee;
+
+            @include big_device {
+                margin-top: 3.2rem;
+            }
+
+            @include small_device {
+                margin: 3.2rem 3.2rem 0;
+            }
+
+            &__title {
+                @include heading_font_regular;
+                font-size: 2.8rem;
+                line-height: 100%;
+                color: $Brandy;
+            }
+
+            &__ol {
+                margin-top: 2.4rem;
+                color: $Wenge;
+            }
+
+            &__li {
+
+                display: flex;
+                gap: 1.6rem;
+
+                &:not(:first-child) {
+                    margin-top: 0.8rem;
+                }
+
+                span {
+                    &:first-child {
+                        color: $Brandy;
+                    }
+                }
+            }
+        }
+
+        .nutrition {
+
+            @include big_device {
+                margin-top: 3.2rem;
+            }
+
+            @include small_device {
+                margin: 3.2rem 3.2rem 4rem;
+            }
+
+            &__title {
+                @include heading_font_regular;
+                font-size: 2.8rem;
+                line-height: 100%;
+                color: $Brandy;
+            }
+
+            &__desc {
+                margin-top: 2.4rem;
+            }
+
+            &__table {
+                width: 100%;
+                margin-top: 2.4rem;
+
+                tr {
+                    display: flex;
+                    gap: 1.6rem;
+                    padding-left: 3.2rem;
+                    padding-right: 3.2rem;
+
+                    &:not(:first-child) {
+                        border-top: 1px solid $WhiteCoffee;
+                        padding-top: 1.2rem;
+                    }
+
+                    &:not(:last-child) {
+                        padding-bottom: 1.2rem;
+                    }
+
+                    td {
+                        flex: 1;
+
+                        &:last-child {
+                            color: $Brandy;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
