@@ -6,24 +6,6 @@
     }
 }
 
-// @mixin medium_device_max {
-//     @media(max-width:$breakpoint-tablet-max) {
-//         @content;
-//     }
-// }
-
-// @mixin medium_device {
-//     @media(min-width:$breakpoint-tablet-min) and (max-width:$breakpoint-tablet-max) {
-//         @content;
-//     }
-// }
-
-// @mixin medium_device_min {
-//     @media(min-width:$breakpoint-tablet-min) {
-//         @content;
-//     }
-// }
-
 @mixin small_device {
     @media(max-width:$breakpoint-mobile-max) {
         @content;

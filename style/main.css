@@ -95,7 +95,7 @@ a {
   overflow: hidden;
 }
 
-body .page {
+.page {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -105,86 +105,86 @@ body .page {
   min-height: 100vh;
 }
 @media (min-width: 784px) {
-  body .page {
+  .page {
     padding: 12.4rem 2.4rem;
     background-color: #F3E5D7;
   }
 }
-body .page strong {
+.page strong {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-body .page .app {
+.page .app {
   width: 100%;
   max-width: 73.6rem;
   margin: auto;
   background-color: white;
 }
 @media (min-width: 784px) {
-  body .page .app {
+  .page .app {
     padding: 4rem;
     border-radius: 2.4rem;
   }
 }
-body .page .app .hero__img {
+.page .app .hero__img {
   width: 100%;
   height: auto;
   display: block;
 }
 @media (min-width: 784px) {
-  body .page .app .hero__img {
+  .page .app .hero__img {
     border-radius: 1.2rem;
   }
 }
-body .page .app .hero__title {
+.page .app .hero__title {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
   line-height: 100%;
 }
 @media (min-width: 784px) {
-  body .page .app .hero__title {
+  .page .app .hero__title {
     font-size: 4rem;
     margin-top: 4rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .hero__title {
+  .page .app .hero__title {
     font-size: 3.6rem;
     margin: 4rem 3.2rem 0;
   }
 }
-body .page .app .hero__desc {
+.page .app .hero__desc {
   color: #5F564D;
 }
 @media (min-width: 784px) {
-  body .page .app .hero__desc {
+  .page .app .hero__desc {
     margin-top: 2.4rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .hero__desc {
+  .page .app .hero__desc {
     margin: 2.4rem 3.2rem 0;
   }
 }
-body .page .app .time {
+.page .app .time {
   border-radius: 1.2rem;
   background-color: #FFF7FB;
 }
 @media (min-width: 784px) {
-  body .page .app .time {
+  .page .app .time {
     margin-top: 3.2rem;
     padding: 2.8rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .time {
+  .page .app .time {
     margin: 3.2rem 3.2rem 0;
     padding: 2.4rem;
   }
 }
-body .page .app .time__title {
+.page .app .time__title {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -192,27 +192,27 @@ body .page .app .time__title {
   line-height: 100%;
   color: #7A284E;
 }
-body .page .app .time__ul {
+.page .app .time__ul {
   margin-top: 1.6rem;
   color: #5F564D;
   list-style-type: disc;
   padding-left: 2.2rem;
 }
-body .page .app .ingredients {
+.page .app .ingredients {
   padding-bottom: 3.2rem;
   border-bottom: 1px solid #E3DDD7;
 }
 @media (min-width: 784px) {
-  body .page .app .ingredients {
+  .page .app .ingredients {
     margin-top: 3.2rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .ingredients {
+  .page .app .ingredients {
     margin: 3.2rem 3.2rem 0;
   }
 }
-body .page .app .ingredients__title {
+.page .app .ingredients__title {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -220,32 +220,32 @@ body .page .app .ingredients__title {
   line-height: 100%;
   color: #854632;
 }
-body .page .app .ingredients__ul {
+.page .app .ingredients__ul {
   margin-top: 2.4rem;
   color: #5F564D;
   list-style-type: disc;
 }
-body .page .app .ingredients__li {
+.page .app .ingredients__li {
   list-style-position: inside;
 }
-body .page .app .ingredients__li:not(:first-child) {
+.page .app .ingredients__li:not(:first-child) {
   margin-top: 0.8rem;
 }
-body .page .app .instructions {
+.page .app .instructions {
   padding-bottom: 3.2rem;
   border-bottom: 1px solid #E3DDD7;
 }
 @media (min-width: 784px) {
-  body .page .app .instructions {
+  .page .app .instructions {
     margin-top: 3.2rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .instructions {
+  .page .app .instructions {
     margin: 3.2rem 3.2rem 0;
   }
 }
-body .page .app .instructions__title {
+.page .app .instructions__title {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -253,31 +253,31 @@ body .page .app .instructions__title {
   line-height: 100%;
   color: #854632;
 }
-body .page .app .instructions__ol {
+.page .app .instructions__ol {
   margin-top: 2.4rem;
   color: #5F564D;
 }
-body .page .app .instructions__li {
+.page .app .instructions__li {
   display: flex;
   gap: 1.6rem;
 }
-body .page .app .instructions__li:not(:first-child) {
+.page .app .instructions__li:not(:first-child) {
   margin-top: 0.8rem;
 }
-body .page .app .instructions__li span:first-child {
+.page .app .instructions__li span:first-child {
   color: #854632;
 }
 @media (min-width: 784px) {
-  body .page .app .nutrition {
+  .page .app .nutrition {
     margin-top: 3.2rem;
   }
 }
 @media (max-width: 783px) {
-  body .page .app .nutrition {
+  .page .app .nutrition {
     margin: 3.2rem 3.2rem 4rem;
   }
 }
-body .page .app .nutrition__title {
+.page .app .nutrition__title {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -285,29 +285,29 @@ body .page .app .nutrition__title {
   line-height: 100%;
   color: #854632;
 }
-body .page .app .nutrition__desc {
+.page .app .nutrition__desc {
   margin-top: 2.4rem;
 }
-body .page .app .nutrition__table {
+.page .app .nutrition__table {
   width: 100%;
   margin-top: 2.4rem;
 }
-body .page .app .nutrition__table tr {
+.page .app .nutrition__table tr {
   display: flex;
   gap: 1.6rem;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
 }
-body .page .app .nutrition__table tr:not(:first-child) {
+.page .app .nutrition__table tr:not(:first-child) {
   border-top: 1px solid #E3DDD7;
   padding-top: 1.2rem;
 }
-body .page .app .nutrition__table tr:not(:last-child) {
+.page .app .nutrition__table tr:not(:last-child) {
   padding-bottom: 1.2rem;
 }
-body .page .app .nutrition__table tr td {
+.page .app .nutrition__table tr td {
   flex: 1;
 }
-body .page .app .nutrition__table tr td:last-child {
+.page .app .nutrition__table tr td:last-child {
   color: #854632;
 }/*# sourceMappingURL=main.css.map */
